@@ -2,6 +2,9 @@
   --font-family: 'Roboto', sans-serif;
   --item-color: #5A5858;
   --item-orange: #FF9018;
+  --light-blue: #1A72E8;
+  --dark-blue: #051E34;
+
 
 }
 /* HEADER */
@@ -34,29 +37,27 @@ header .tag-header i:last-child{
 
 .container-left{
   width: 60px;
-  background-color: blue;
-  height: 100vh;
+  background-color: var(--dark-blue);
+  height: calc(100vh - 70px);
 }
 
 .container-right{
   width: calc(100% - 60px);
   background-color: yellow;
   overflow: auto;
-  max-height: 100vh;
+  height: calc(100vh - 70px);
 }
 
 @media screen and (min-width:1200px){
   .container-left{
     width: 150px;
-    background-color: blue;
-    height: 100vh;
+    background-color: var(--dark-blue);
   }
 
   .container-right{
     width: calc(100% - 150px);
     background-color: yellow;
     overflow: auto;
-    max-height: 100vh;
   }
 
   header .img-mobile{
