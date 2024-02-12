@@ -35,6 +35,7 @@ header .tag-header i:last-child{
 
 /* /HEADER */
 
+
 /* CONTAINER LEFT */
 .container-left{
   width: 60px;
@@ -72,6 +73,7 @@ header .tag-header i:last-child{
 /* /CONTAINER LEFT */
 
 
+/* CONTAINER-RIGHT */
 .container-right{
   width: calc(100% - 60px);
   background-color: yellow;
@@ -79,7 +81,32 @@ header .tag-header i:last-child{
   height: calc(100vh - 70px);
 }
 
-@media screen and (min-width:1200px){
+.container-right .top-container-right{
+  background-color: red;
+  height: 120px;
+}
+
+.container-right .main-container-right,
+.container-right .main-container-right {
+  background-color: blue;
+  height: calc(100vh - 180px);
+
+}
+
+.container-right .main-container-right .col-left{
+  background-color: orange;
+}
+
+
+.container-right .main-container-right .col-right{
+  background-color: black;
+
+}
+/* /CONTAINER-RIGHT */
+
+
+
+@media screen and (min-width:768px){
 
   /* HEADER */
 
@@ -124,11 +151,15 @@ header .tag-header i:last-child{
 
     /* CONTAINER-LEFT */
 
-  .container-right{
+
+    /* CONTAINER-RIGHT */
+
+    .container-right{
     width: calc(100% - 150px);
     background-color: yellow;
     overflow: auto;
   }
 
+    /* /CONTAINER-RIGHT */
 
 }
