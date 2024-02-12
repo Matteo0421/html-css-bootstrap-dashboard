@@ -84,22 +84,20 @@ header .tag-header i:last-child{
 .container-right .top-container-right{
   background-color: red;
   height: 120px;
+  width: 100%;
 }
 
 .container-right .main-container-right,
 .container-right .main-container-right {
-  background-color: blue;
   height: calc(100vh - 180px);
 
 }
 
 .container-right .main-container-right .col-left{
-  background-color: orange;
 }
 
 
 .container-right .main-container-right .col-right{
-  background-color: black;
 
 }
 /* /CONTAINER-RIGHT */
