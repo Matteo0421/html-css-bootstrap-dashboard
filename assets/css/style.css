@@ -1,21 +1,75 @@
-body{
-  font-family: 'Roboto', sans-serif;
+:root{
+  --font-family: 'Roboto', sans-serif;
+  --item-color: #5A5858;
+  --item-orange: #FF9018;
+
+}
+/* HEADER */
+header{
+  height: 70px;
 }
 
-header{
-  height: 80px;
-  background-color: red;
+header .img-desktop{
+  display: none;
 }
+
+
+.orange-item{
+  color: var(--item-orange);
+} 
+
+header i{
+  color: var(--item-color);
+}
+
+header .tag-header i{
+  display: none;
+}
+
+header .tag-header i:last-child{
+  display: block;
+}
+
+/* /HEADER */
 
 .container-left{
-  width: 150px;
+  width: 60px;
   background-color: blue;
   height: 100vh;
 }
 
 .container-right{
-  width: calc(100% - 150px);
+  width: calc(100% - 60px);
   background-color: yellow;
   overflow: auto;
   max-height: 100vh;
+}
+
+@media screen and (min-width:1200px){
+  .container-left{
+    width: 150px;
+    background-color: blue;
+    height: 100vh;
+  }
+
+  .container-right{
+    width: calc(100% - 150px);
+    background-color: yellow;
+    overflow: auto;
+    max-height: 100vh;
+  }
+
+  header .img-mobile{
+    display: none;
+  }
+
+  header .img-desktop{
+    display: block;
+    width: 150px;
+    margin-left: 15px;
+  }
+
+  header .tag-header i{
+    display: block;
+  }
 }
