@@ -76,7 +76,6 @@ header .tag-header i:last-child{
 /* CONTAINER-RIGHT */
 .container-right{
   width: calc(100% - 60px);
-  background-color: yellow;
   overflow: auto;
   height: calc(100vh - 70px);
 }
@@ -92,13 +91,10 @@ header .tag-header i:last-child{
 
 }
 
-.container-right .main-container-right .col-left{
+.table-img-first{
+  width: 30px;
 }
 
-
-.container-right .main-container-right .col-right{
-
-}
 /* /CONTAINER-RIGHT */
 
 
@@ -153,10 +149,14 @@ header .tag-header i:last-child{
 
     .container-right{
     width: calc(100% - 150px);
-    background-color: yellow;
     overflow: auto;
   }
 
-    /* /CONTAINER-RIGHT */
+  /* .small-none-first{
+    display: block;
+  } */
 
+
+      /* /CONTAINER-RIGHT */
 }
+
