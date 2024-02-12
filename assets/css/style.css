@@ -1,3 +1,21 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+
+header{
+  height: 80px;
+  background-color: red;
+}
+
+.container-left{
+  width: 150px;
+  background-color: blue;
+  height: 100vh;
+}
+
+.container-right{
+  width: calc(100% - 150px);
+  background-color: yellow;
+  overflow: auto;
+  max-height: 100vh;
+}
