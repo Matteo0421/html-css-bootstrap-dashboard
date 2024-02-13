@@ -86,18 +86,22 @@ header .tag-header i:last-child{
 }
 
 .container-right .top-container-right{
-  background-color: red;
-  height: 120px;
+  background-color: var(--light-blue);
+  height: 150px;
 }
 
 .container-right .main-container-right,
 .container-right .main-container-right {
-  height: calc(100vh - 180px);
+  height: calc(100vh - 210px);
 
 }
 
 .table-img-first{
   width: 30px;
+}
+
+.mc-btn-dashboard{
+  background-color: #165BBA;
 }
 
 /* /CONTAINER-RIGHT */
