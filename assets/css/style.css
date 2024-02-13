@@ -87,12 +87,11 @@ header .tag-header i:last-child{
 
 .container-right .top-container-right{
   background-color: var(--light-blue);
-  height: 150px;
 }
 
 .container-right .main-container-right,
 .container-right .main-container-right {
-  height: calc(100vh - 210px);
+  height: calc(100vh - 60px);
 
 }
 
