@@ -121,12 +121,14 @@
         <div class="col col-12 col-md-3 col-sm-4 align-items-center d-flex justify-content-sm-end px-md-5 order-1 order-sm-0">
           <span class="me-2">Nuovo Studente</span>
           <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas offcanvas-end offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
+
+
               <form class="row g-3">
                 <div class="col-md-6">
                   <label for="inputEmail4" class="form-label">Nome</label>
@@ -146,7 +148,7 @@
                 </div>
                 <div class="col-12">
                   <label for="inputAddress" class="form-label">Indirizzo</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                  <input type="text" class="form-control" id="inputAddress" placeholder="">
                 </div>
                 <div class="col-md-6">
                   <label for="inputCity" class="form-label">Città</label>
@@ -181,6 +183,8 @@
                   <button type="submit" class="btn btn-warning ">Sign in</button>
                 </div>
               </form>
+
+              
             </div>
           </div>
         </div>

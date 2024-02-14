@@ -4,8 +4,10 @@
   --item-orange: #FF9018;
   --light-blue: #1A72E8;
   --dark-blue: #051E34;
+}
 
-
+body{
+  font-family: var(--font-family);
 }
 /* HEADER */
 header{
@@ -103,6 +105,10 @@ header .tag-header i:last-child{
   background-color: #165BBA;
 }
 
+.offcanvas.show {
+  width: 100%;
+}
+
 /* /CONTAINER-RIGHT */
 
 
@@ -160,11 +166,9 @@ header .tag-header i:last-child{
     overflow: auto;
   }
 
-  /* .small-none-first{
-    display: block;
-  } */
+  .offcanvas.show {
+    width: 50%;
+  }
 
-
-      /* /CONTAINER-RIGHT */
+  /* /CONTAINER-RIGHT */
 }
-
